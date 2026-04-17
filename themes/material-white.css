@@ -1,0 +1,42 @@
+*:not(.tc_menu):not(.tc_menu *):not(.input_wrapper button):not(button *) {
+    background: #eee;
+    color: black !important;
+    border-color: gray;
+}
+
+.sidebar-right,
+.sidebar-left {
+    background: rgba(0, 0, 0, .05) !important;
+}
+
+.sidebar-right *,
+.sidebar-left * {
+    background: transparent !important;
+}
+
+.direct-messages-div {
+    background: rgba(0, 0, 0, .04) !important;
+}
+
+.direct-messages-div * {
+    background: transparent !important;
+}
+
+.input-wrapper {
+    background: rgba(0, 0, 0, .04) !important;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.015);
+}
+
+.input-wrapper textarea {
+    color: #ccc !important;
+}
+
+.add-button:hover {
+    color: #ccc !important;
+    border-color: #ccc !important;
+}
+
+.input-wrapper button,
+textarea {
+    background: transparent !important;
+}

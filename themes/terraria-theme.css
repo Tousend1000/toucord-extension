@@ -1,0 +1,73 @@
+.sidebar-left::before,
+.sidebar-right::before,
+.main-content::before,
+.message-sending::before,
+.sidebar-footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+    /* for some reason this allows clicks to pass through the styles */
+    pointer-events: none;
+}
+
+/* sidebars & main content */
+.sidebar-left, .sidebar-right, .main-content {
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.sidebar-left::before {
+    background: url('https://cdn.discordapp.com/attachments/1292932071630700565/1491163192922083389/4.gif?ex=69d6b171&is=69d55ff1&hm=a300ca2901843e052629740cc47a3fcfbcdf801850bb119527e6d77e3ba39943&') no-repeat center/cover;
+    filter: brightness(.4) blur(3px);
+}
+
+.sidebar-right::before {
+    background: url('https://cdn.discordapp.com/attachments/1292932071630700565/1491163193614270474/6.gif?ex=69d6b171&is=69d55ff1&hm=4313c46ed71302755b206d4f7cbe9224e3f2844fca1c09aef5b87490600bf6e4&') no-repeat center/cover;
+    transform: scaleX(-1);
+    filter: brightness(.4) blur(3px);
+}
+
+.main-content::before {
+    background: url('https://cdn.discordapp.com/attachments/1292932071630700565/1491163193261953235/5.gif?ex=69d6b171&is=69d55ff1&hm=4e7424151065ad30b787fcf0b25524838c144f0147bb30e22365a44628fcd84a&') no-repeat center/cover;
+    filter: brightness(.4) blur(3px);
+}
+
+/* elements inside of the thingys */
+.message-sending {
+    position: relative;
+    z-index: 0;
+    color: white;
+}
+
+.message-sending::before {
+    /* width and height to 100% to prevent overflow issues */
+    width: 200%;
+    height: 200%;
+    background: rgba(0, 0, 0, 0.2);
+    filter: blur(15px);
+
+    transform: translateX(-25%) translateY(-5%);
+}
+
+.sidebar-footer {
+    /* remove default background from the element cause it sucks */
+    background: none !important;
+}
+
+/* text colors */
+.message-sending *,
+.message-sending *::placeholder,
+.sidebar-footer * {
+    color: #ababab !important;
+}
+
+/* others */
+.add-button:hover {
+    border: 1px solid #ababab !important;
+}

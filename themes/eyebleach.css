@@ -1,0 +1,5 @@
+*:not(.tc_menu):not(.tc_menu *) {
+    background: linear-gradient(135deg, white, yellow);
+    color: lime !important;
+    border-color: gray;
+}

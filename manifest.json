@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Toucord: Better Starcord",
+    "version": "1.0",
+    "description": "Custom themes and plugins for Starcord.",
+    "permissions": ["storage", "windows"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": ["http://localhost:4200/*"],
+            "css": ["inject/theme.css"],
+            "js": ["inject/injector.js"],
+            "run_at": "document_idle"
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": ["vs/**"],
+            "matches": ["<all_urls>"]
+        }
+    ]
+}

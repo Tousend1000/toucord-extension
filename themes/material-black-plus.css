@@ -1,0 +1,3 @@
+*:not(.tc_menu):not(.tc_menu *) {
+    background: #080808;
+}

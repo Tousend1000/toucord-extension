@@ -1,0 +1,73 @@
+.sidebar-left::before,
+.sidebar-right::before,
+.main-content::before,
+.message-sending::before,
+.sidebar-footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+    /* for some reason this allows clicks to pass through the styles */
+    pointer-events: none;
+}
+
+/* sidebars & main content */
+.sidebar-left, .sidebar-right, .main-content {
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.sidebar-left::before {
+    background: url('https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png') no-repeat center/cover;
+    filter: brightness(.4) blur(3px);
+}
+
+.sidebar-right::before {
+    background: url('https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png') no-repeat center/cover;
+    transform: scaleX(-1);
+    filter: brightness(.4) blur(3px);
+}
+
+.main-content::before {
+    background: url('https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png') no-repeat center/cover;
+    filter: brightness(.4) blur(3px);
+}
+
+/* elements inside of the thingys */
+.message-sending {
+    position: relative;
+    z-index: 0;
+    color: white;
+}
+
+.message-sending::before {
+    /* width and height to 100% to prevent overflow issues */
+    width: 200%;
+    height: 200%;
+    background: rgba(0, 0, 0, 0.2);
+    filter: blur(15px);
+
+    transform: translateX(-25%) translateY(-5%);
+}
+
+.sidebar-footer {
+    /* remove default background from the element cause it sucks */
+    background: none !important;
+}
+
+/* text colors */
+.message-sending *,
+.message-sending *::placeholder,
+.sidebar-footer * {
+    color: #ababab !important;
+}
+
+/* others */
+.add-button:hover {
+    border: 1px solid #ababab !important;
+}

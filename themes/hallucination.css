@@ -1,0 +1,21 @@
+* {
+    background-image: linear-gradient(
+        135deg, 
+        red, orange, yellow, green, blue, purple, red
+    ) !important;
+    
+    background-size: 200% 100% !important;
+    
+    background-attachment: scroll !important;
+    
+    animation: flowRight 5s linear infinite !important;
+}
+
+@keyframes flowRight {
+    from {
+        background-position: 0% 0%;
+    }
+    to {
+        background-position: -200% 0%;
+    }
+}

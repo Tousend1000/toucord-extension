@@ -1,0 +1,65 @@
+{
+    "default": {
+        "id": "default",
+        "name": "Default Theme",
+        "description": "The good old default Starcord theme.",
+        "author": "Starcord",
+        "preview": "https://cdn.discordapp.com/attachments/1348361964681822258/1491192217111363685/image.png?ex=69d6cc79&is=69d57af9&hm=f6803f72114b6fc0dacf12307b430955d840def7dc6b20d60b859245802f4fb8&"
+    },
+    "material-white": {
+        "id": "material-white",
+        "name": "Material White Theme",
+        "description": "An actual light mode theme for people with social anxiety. Not recommended for use in dark environments.",
+        "author": "Tousend1000",
+        "preview": "https://cdn.discordapp.com/attachments/1168998406769868892/1491243563672014958/image.png?ex=69d6fc4b&is=69d5aacb&hm=a2f0a88218cffb1dd5985dc90e8d66af93add685b12437159a225a8c9daa4d02&"
+    },
+    "material-black": {
+        "id": "material-black",
+        "name": "Material Black Theme",
+        "description": "A simple and clean dark theme.",
+        "author": "Tousend1000",
+        "preview": "https://cdn.discordapp.com/attachments/1168998406769868892/1491219897714479344/image.png?ex=69d6e641&is=69d594c1&hm=30d3ae9bbd9520ffa7c43457c2fc647f170db0987cbb720de04cf3b650dde5aa&"
+    },
+    "material-black-plus": {
+        "id": "material-black-plus",
+        "name": "Material Black+ Theme",
+        "description": "A darker version of the Material Black theme.",
+        "author": "Tousend1000",
+        "preview": "https://cdn.discordapp.com/attachments/1168998406769868892/1491220065935429844/image.png?ex=69d6e669&is=69d594e9&hm=6ef557ca77c7a11b26fd6d4f660d9c054a599c7ad385aaf26c1741f4f77f739d&"
+    },
+    "material-black-plus-plus": {
+        "id": "material-black-plus-plus",
+        "name": "Material Black++ Theme",
+        "description": "The darkness itself. An even darker version of the Material Black+ theme.",
+        "author": "Tousend1000",
+        "preview": "https://cdn.discordapp.com/attachments/1168998406769868892/1491220229039067278/image.png?ex=69d6e690&is=69d59510&hm=4fdee348b58c5beaff1d1bc195823b2c64c565c5d3fe56432ebfd5f63b5e2ade&"
+    },
+    "space": {
+        "id": "space",
+        "name": "Space Theme",
+        "description": "A theme inspired by the vast emptiness of space. Perfect for those who want to feel like they're floating in the void.",
+        "author": "Tousend1000",
+        "preview": "https://cdn.discordapp.com/attachments/1168998406769868892/1491236773198827571/image.png?ex=69d6f5f8&is=69d5a478&hm=89feedbbae7bfe59909902c3fb8f3f854f67fc1d0d92676fe445576743d7e1df&"
+    },
+    "flashbang": {
+        "id": "flashbang",
+        "name": "Flashbang Theme",
+        "description": "The light itself. Not recommended for long-term use unless you want to blind yourself.",
+        "author": "Tousend1000",
+        "preview": "https://cdn.discordapp.com/attachments/1168998406769868892/1491226297127670034/image.png?ex=69d6ec36&is=69d59ab6&hm=05fb25c1a86f1d176fef6a5e292bc980b3dab0a6d0595a7fa08f74096ffe4419&"
+    },
+    "eyebleach": {
+        "id": "eyebleach",
+        "name": "Eyebleach Theme",
+        "description": "A theme which is identical to bleach. For those who want to punish themselves.",
+        "author": "Tousend1000",
+        "preview": "https://cdn.discordapp.com/attachments/1168998406769868892/1491226155154538566/image.png?ex=69d6ec15&is=69d59a95&hm=22ed8bfd02b40077a964f1dec879b9fcb51dfc5583649fbc9030fbe62ca7301e&"
+    },
+    "hallucination": {
+        "id": "hallucination",
+        "name": "Hallucination Theme",
+        "description": "Are you sure it's just the theme? Not recommended for use in public.",
+        "author": "Tousend1000",
+        "preview": "https://cdn.discordapp.com/attachments/1168998406769868892/1491246541887897610/image.png?ex=69d6ff11&is=69d5ad91&hm=0f5837306330601947c7caba2ca0ec270d77fc7f2e621dfdb5635ed7bb8f92e8&"
+    }
+}

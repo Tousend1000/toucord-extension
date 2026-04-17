@@ -1,0 +1,5 @@
+*:not(.tc_menu):not(.tc_menu *) {
+    background: #fff;
+    color: black !important;
+    border-color: gray;
+}
