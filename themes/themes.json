@@ -4,62 +4,71 @@
         "name": "Default Theme",
         "description": "The good old default Starcord theme.",
         "author": "Starcord",
-        "preview": "https://raw.githubusercontent.com/Tousend1000/toucord-extension/refs/heads/main/themes/previews/default.png"
+        "preview": "https://raw.githubusercontent.com/Tousend1000/toucord-extension/refs/heads/main/themes/previews/default.png",
+        "src": ""
     },
     "material-white": {
         "id": "material-white",
         "name": "Material White Theme",
         "description": "An actual light mode theme for people with social anxiety. Not recommended for use in dark environments.",
         "author": "Tousend1000",
-        "preview": "https://raw.githubusercontent.com/Tousend1000/toucord-extension/refs/heads/main/themes/previews/materialwhite.png"
+        "preview": "https://raw.githubusercontent.com/Tousend1000/toucord-extension/refs/heads/main/themes/previews/materialwhite.png",
+        "src": "https://raw.githubusercontent.com/Tousend1000/toucord-extension/refs/heads/main/themes/material-white.css"
     },
     "material-black": {
         "id": "material-black",
         "name": "Material Black Theme",
         "description": "A simple and clean dark theme.",
         "author": "Tousend1000",
-        "preview": "https://raw.githubusercontent.com/Tousend1000/toucord-extension/refs/heads/main/themes/previews/materialblack.png"
+        "preview": "https://raw.githubusercontent.com/Tousend1000/toucord-extension/refs/heads/main/themes/previews/materialblack.png",
+        "src": "https://raw.githubusercontent.com/Tousend1000/toucord-extension/refs/heads/main/themes/material-black.css"
     },
     "material-black-plus": {
         "id": "material-black-plus",
         "name": "Material Black+ Theme",
         "description": "A darker version of the Material Black theme.",
         "author": "Tousend1000",
-        "preview": "https://raw.githubusercontent.com/Tousend1000/toucord-extension/refs/heads/main/themes/previews/materialblackplus.png"
+        "preview": "https://raw.githubusercontent.com/Tousend1000/toucord-extension/refs/heads/main/themes/previews/materialblackplus.png",
+        "src": "https://raw.githubusercontent.com/Tousend1000/toucord-extension/refs/heads/main/themes/material-black-plus.css"
     },
     "material-black-plus-plus": {
         "id": "material-black-plus-plus",
         "name": "Material Black++ Theme",
         "description": "The darkness itself. An even darker version of the Material Black+ theme.",
         "author": "Tousend1000",
-        "preview": "https://raw.githubusercontent.com/Tousend1000/toucord-extension/refs/heads/main/themes/previews/materialblackplusplus.png"
+        "preview": "https://raw.githubusercontent.com/Tousend1000/toucord-extension/refs/heads/main/themes/previews/materialblackplusplus.png",
+        "src": "https://raw.githubusercontent.com/Tousend1000/toucord-extension/refs/heads/main/themes/material-black-plus-plus.css"
     },
     "space": {
         "id": "space",
         "name": "Space Theme",
         "description": "A theme inspired by the vast emptiness of space. Perfect for those who want to feel like they're floating in the void.",
         "author": "Tousend1000",
-        "preview": "https://raw.githubusercontent.com/Tousend1000/toucord-extension/refs/heads/main/themes/previews/space.png"
+        "preview": "https://raw.githubusercontent.com/Tousend1000/toucord-extension/refs/heads/main/themes/previews/space.png",
+        "src": "https://raw.githubusercontent.com/Tousend1000/toucord-extension/refs/heads/main/themes/space.css"
     },
     "flashbang": {
         "id": "flashbang",
         "name": "Flashbang Theme",
         "description": "The light itself. Not recommended for long-term use unless you want to blind yourself.",
         "author": "Tousend1000",
-        "preview": "https://raw.githubusercontent.com/Tousend1000/toucord-extension/refs/heads/main/themes/previews/flashbang.png"
+        "preview": "https://raw.githubusercontent.com/Tousend1000/toucord-extension/refs/heads/main/themes/previews/flashbang.png",
+        "src": "https://raw.githubusercontent.com/Tousend1000/toucord-extension/refs/heads/main/themes/flashbang.css"
     },
     "eyebleach": {
         "id": "eyebleach",
         "name": "Eyebleach Theme",
         "description": "A theme which is identical to bleach. For those who want to punish themselves.",
         "author": "Tousend1000",
-        "preview": "https://raw.githubusercontent.com/Tousend1000/toucord-extension/refs/heads/main/themes/previews/eyebleach.png"
+        "preview": "https://raw.githubusercontent.com/Tousend1000/toucord-extension/refs/heads/main/themes/previews/eyebleach.png",
+        "src": "https://raw.githubusercontent.com/Tousend1000/toucord-extension/refs/heads/main/themes/eyebleach.css"
     },
     "hallucination": {
         "id": "hallucination",
         "name": "Hallucination Theme",
         "description": "Are you sure it's just the theme? Not recommended for use in public.",
         "author": "Tousend1000",
-        "preview": "https://raw.githubusercontent.com/Tousend1000/toucord-extension/refs/heads/main/themes/previews/hallucination.png"
+        "preview": "https://raw.githubusercontent.com/Tousend1000/toucord-extension/refs/heads/main/themes/previews/hallucination.png",
+        "src": "https://raw.githubusercontent.com/Tousend1000/toucord-extension/refs/heads/main/themes/hallucination.css"
     }
 }

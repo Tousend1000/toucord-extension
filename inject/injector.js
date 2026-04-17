@@ -191,7 +191,7 @@ async function switchTab(tabId) {
                         <h3>${theme.name}</h3>
                         <p>${theme.description}</p>
                         <p>Author: ${theme.author}</p>
-                        <button>Apply</button>
+                        <button id="tc_thmAply" data-theme-id="${theme.id}">Apply</button>
                     </div>
                     <div class="tc_cardR" style="background: url('${theme.preview}') no-repeat center/cover;"></div>
                 </div>
@@ -200,6 +200,16 @@ async function switchTab(tabId) {
                     .join('')}
             </div>
             `;
+            displayArea.querySelectorAll('#tc_thmAply').forEach(async (btn) => {
+                btn.addEventListener('click', async () => {
+                    const themeId = btn.getAttribute('data-theme-id');
+                    if (!themeId || !themes[themeId]) return;
+
+                    currentThemeId = themeId;
+                    customThemeLinkTag.setAttribute('data-theme-id', themeId);
+                    customThemeLinkTag.href = themes.src;
+                });
+            });
             break;
         case 'tc_mSbrPlnBws':
             displayArea.innerHTML = `
